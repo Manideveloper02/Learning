@@ -1,0 +1,8 @@
+D:\Learning\Blazor\BlazorApp.Client\BlazorApp.Shared\bin\Release\netstandard2.0\BlazorApp.Shared.deps.json
+D:\Learning\Blazor\BlazorApp.Client\BlazorApp.Shared\bin\Release\netstandard2.0\BlazorApp.Shared.dll
+D:\Learning\Blazor\BlazorApp.Client\BlazorApp.Shared\bin\Release\netstandard2.0\BlazorApp.Shared.pdb
+D:\Learning\Blazor\BlazorApp.Client\BlazorApp.Shared\obj\Release\netstandard2.0\BlazorApp.Shared.AssemblyInfoInputs.cache
+D:\Learning\Blazor\BlazorApp.Client\BlazorApp.Shared\obj\Release\netstandard2.0\BlazorApp.Shared.AssemblyInfo.cs
+D:\Learning\Blazor\BlazorApp.Client\BlazorApp.Shared\obj\Release\netstandard2.0\BlazorApp.Shared.csproj.CoreCompileInputs.cache
+D:\Learning\Blazor\BlazorApp.Client\BlazorApp.Shared\obj\Release\netstandard2.0\BlazorApp.Shared.dll
+D:\Learning\Blazor\BlazorApp.Client\BlazorApp.Shared\obj\Release\netstandard2.0\BlazorApp.Shared.pdb
