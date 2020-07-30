@@ -37,15 +37,15 @@ steps:
   inputs:
     command: publish
     publishWebProjects: True
-    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    arguments: '--configuration $(BuildConfiguration) --output $(Build.DefaultWorkingDirectory)'
     zipAfterPublish: True
 
 - task: PublishBuildArtifacts@1
   inputs:
-    pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
+    pathtoPublish: '$(Build.DefaultWorkingDirectory)' 
     artifactName: 'Default Web Site'
 - task: IISWebAppDeploymentOnMachineGroup@0
   inputs:
     WebSiteName: 'Default Web Site'
     VirtualApplication: 'BlazorApp'
-    Package: '$(System.DefaultWorkingDirectory)\Blazor\BlazorApp.zip'
+    Package: '$(System.DefaultWorkingDirectory)'
