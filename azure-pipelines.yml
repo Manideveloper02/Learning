@@ -44,11 +44,8 @@ steps:
   inputs:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
     artifactName: 'Default Web Site'
-- task: IISWebAppDeploy@2
+- task: IISWebAppDeploymentOnMachineGroup@0
   inputs:
-    machinesList: '$(WebServers)'
-    AdminUserName: '$(username)'
-    AdminPassword: '$(Password)'
-    WinRMProtocol: 'Https'
-    WebDeployPackage: '$(System.DefaultWorkingDirectory)/'
-    WebsiteName: 'Default Web Site'
+    WebSiteName: 'Default Web Site'
+    VirtualApplication: 'BlazorApp'
+    Package: '$(System.DefaultWorkingDirectory)\Blazor\BlazorApp.zip'
