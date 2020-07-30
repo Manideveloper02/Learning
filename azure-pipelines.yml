@@ -50,8 +50,8 @@ steps:
   inputs:
     sourcePath: 
     machineNames: $(WebServers)
-    #adminUserName: # Optional
-    #adminPassword: # Optional
+    adminUserName: 'manideveloper02@gmail.com'
+    adminPassword: '0394'
     targetPath: 
     cleanTargetBeforeCopy: false 
     copyFilesInParallel: true 
