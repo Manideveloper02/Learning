@@ -50,5 +50,5 @@ steps:
     AdminUserName: '$(username)'
     AdminPassword: '$(Password)'
     WinRMProtocol: 'Https'
-    WebDeployPackage: 
+    WebDeployPackage: '$(System.DefaultWorkingDirectory)/'
     WebsiteName: 'Default Web Site'
