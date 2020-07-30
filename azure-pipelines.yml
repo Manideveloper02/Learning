@@ -44,15 +44,10 @@ steps:
   inputs:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
     artifactName: 'Default Web Site'
-
-# Copy files to remote Windows machines
-- task: WindowsMachineFileCopy@2
+- task: IISWebAppManagementOnMachineGroup@0
   inputs:
-    sourcePath: 
-    machineNames: $(WebServers)
-    adminUserName: 'manideveloper02@gmail.com'
-    adminPassword: '0394'
-    targetPath: 
-    cleanTargetBeforeCopy: false 
-    copyFilesInParallel: true 
-    #additionalArguments: # Optional
+    IISDeploymentType: 'IISWebsite'
+    ActionIISWebsite: 'CreateOrUpdateWebsite'
+    WebsiteName: 'BlazorApp'
+    WebsitePhysicalPath: '%SystemDrive%\inetpub\wwwroot'
+    WebsitePhysicalPathAuth: 'WebsiteUserPassThrough'
