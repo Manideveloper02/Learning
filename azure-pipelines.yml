@@ -44,10 +44,11 @@ steps:
   inputs:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
     artifactName: 'Default Web Site'
-- task: IISWebAppManagementOnMachineGroup@0
+- task: IISWebAppDeploy@2
   inputs:
-    IISDeploymentType: 'IISWebsite'
-    ActionIISWebsite: 'CreateOrUpdateWebsite'
-    WebsiteName: 'BlazorApp'
-    WebsitePhysicalPath: '%SystemDrive%\inetpub\wwwroot'
-    WebsitePhysicalPathAuth: 'WebsiteUserPassThrough'
+    machinesList: '$(WebServers)'
+    AdminUserName: '$(username)'
+    AdminPassword: '$(Password)'
+    WinRMProtocol: 'Https'
+    WebDeployPackage: 
+    WebsiteName: 'Default Web Site'
