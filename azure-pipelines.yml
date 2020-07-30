@@ -44,3 +44,15 @@ steps:
   inputs:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
     artifactName: 'Default Web Site'
+
+# Copy files to remote Windows machines
+- task: WindowsMachineFileCopy@2
+  inputs:
+    sourcePath: 
+    machineNames: $(WebServers)
+    #adminUserName: # Optional
+    #adminPassword: # Optional
+    targetPath: 
+    cleanTargetBeforeCopy: false 
+    copyFilesInParallel: true 
+    #additionalArguments: # Optional
