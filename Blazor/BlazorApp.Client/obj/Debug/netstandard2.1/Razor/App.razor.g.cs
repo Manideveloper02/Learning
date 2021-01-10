@@ -58,6 +58,13 @@ using BlazorApp.Shared.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 9 "D:\Learning\Blazor\BlazorApp.Client\_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -122,6 +129,7 @@ using BlazorApp.Shared.Models;
             __builder.CloseComponent();
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavManager { get; set; }
     }
 }
 #pragma warning restore 1591

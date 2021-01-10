@@ -1,7 +1,7 @@
+using BlazorApp.Client.AuthProviders;
 using Microsoft.AspNetCore.Blazor.Hosting;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace BlazorApp.Client
@@ -12,7 +12,8 @@ namespace BlazorApp.Client
         {
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("app");
-
+            builder.Services.AddScoped<AuthenticationStateProvider, TestAuthStateProvider>();
+            builder.Services.AddAuthorizationCore();
             await builder.Build().RunAsync();
         }
     }

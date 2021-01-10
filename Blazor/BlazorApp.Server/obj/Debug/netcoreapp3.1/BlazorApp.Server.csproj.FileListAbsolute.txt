@@ -137,8 +137,6 @@ D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\BlazorApp.Shared.pdb
 D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.csprojAssemblyReference.cache
 D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.AssemblyInfoInputs.cache
 D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.AssemblyInfo.cs
-D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.csproj.CoreCompileInputs.cache
-D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.MvcApplicationPartsAssemblyInfo.cache
 D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.RazorTargetAssemblyInfo.cache
 D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.csproj.CopyComplete
 D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\staticwebassets\BlazorApp.Server.StaticWebAssets.Manifest.cache
@@ -146,3 +144,15 @@ D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\staticwebassets\Blaz
 D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.dll
 D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.pdb
 D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.genruntimeconfig.cache
+D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\BlazorApp.Server.StaticWebAssets.xml
+D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+D:\Learning\Blazor\BlazorApp.Server\bin\Debug\netcoreapp3.1\BlazorApp.Client.StaticWebAssets.xml
+D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.csproj.CoreCompileInputs.cache
+D:\Learning\Blazor\BlazorApp.Server\obj\Debug\netcoreapp3.1\BlazorApp.Server.MvcApplicationPartsAssemblyInfo.cache
